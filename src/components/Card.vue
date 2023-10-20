@@ -90,7 +90,7 @@
 
       &--front {
         .card__content {
-          background: url('../assets/images/icon_back.png') center no-repeat;
+          background: url('/images/icon_back.png') center no-repeat;
           background-size: 70%;
           width: 100%;
           height: 100%;

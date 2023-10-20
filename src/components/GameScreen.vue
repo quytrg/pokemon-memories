@@ -7,7 +7,7 @@
       <Card
         v-for="(card, index) in cardsContext" 
         :key="index" 
-        :backFaceImgUrl="`/src/assets/images/${card}.png`"
+        :backFaceImgUrl="`/images/${card}.png`"
         :sizeMatrix="Math.sqrt(cardsContext.length)"
         :ref="`card-${index}`"
         @click="handleCheckRule(card, index)"
